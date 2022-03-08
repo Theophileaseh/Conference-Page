@@ -484,6 +484,16 @@ body.overflow-hidden {
         border: 3px solid #fff;
     }
 
+    .join-us-link {
+        display: none;
+    }
+
+    .more-program-link {
+        display: inline-block;
+        color: #d3d0d0;
+        font-size: 18px;
+    }
+
     .featured-speakers {
         padding: 70px 180px;
     }
