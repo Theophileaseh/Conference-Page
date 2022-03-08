@@ -28,18 +28,18 @@ const SpeakersOne = [
   
   const speakersOneContainer = document.getElementById('speakers-1');
   
-  const allSpeakersOne = speakersOneContainer
+  const allSpeakersOne = SpeakersOne
     .map(
-      (speakersOne) => `
+      (speakersOnes) => `
       <div class="single-speaker">
       <div class="speaker-img">
           <img src="img/span-bg.png" class="img-bg">
-          <img src="img/${speakersOne.featured_image}" class="sp-img">
+          <img src="img/${speakersOnes.featured_image}" class="sp-img">
       </div>
       <div class="speaker-info">
-          <h3 class="speaker-name">${speakersOne.name}</h3>
-          <span class="speaker-position">${speakersOne.position}</span>
-          <p class="about-speaker">${speakersOne.description}</p>
+          <h3 class="speaker-name">${speakersOnes.name}</h3>
+          <span class="speaker-position">${speakersOnes.position}</span>
+          <p class="about-speaker">${speakersOnes.description}</p>
       </div>
   </div>
     `,
@@ -81,18 +81,18 @@ const SpeakersOne = [
   
   const speakersTwoContainer = document.getElementById('speakers-2');
   
-  const allSpeakersTwo = speakersTwoContainer
+  const allSpeakersTwo = SpeakersTwo
     .map(
-      (speakersTwo) => `
+      (speakersTwos) => `
       <div class="single-speaker">
       <div class="speaker-img">
           <img src="img/span-bg.png" class="img-bg">
-          <img src="img/${speakersTwo.featured_image2}" class="sp-img">
+          <img src="img/${speakersTwos.featured_image2}" class="sp-img">
       </div>
       <div class="speaker-info">
-          <h3 class="speaker-name">${speakersTwo.name2}</h3>
-          <span class="speaker-position">${speakersTwo.position2}</span>
-          <p class="about-speaker">${speakersTwo.description2}</p>
+          <h3 class="speaker-name">${speakersTwos.name2}</h3>
+          <span class="speaker-position">${speakersTwos.position2}</span>
+          <p class="about-speaker">${speakersTwos.description2}</p>
       </div>
   </div>
     `,
