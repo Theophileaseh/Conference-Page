@@ -6,8 +6,41 @@ body {
     padding: 0;
 }
 
+.menu-icon {
+    display: inline-block;
+    background-image: url('../img/icons/open.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 1000;
+    left: 0;
+    top: 50px;
+    margin-left: 15px;
+}
+
+.menu-icon.active {
+    background-image: url('../img/icons/close.svg');
+    height: 25px;
+    width: 25px;
+}
+
+.header {
+    height: 0;
+}
+
+.top-header {
+    display: none;
+}
+
+.navigation {
+    display: none;
+}
+
 .main {
-    padding: 20px;
+    padding: 80px 20px;
     background: url(../img/bg-1.png);
     background-size: contain;
 }
@@ -129,14 +162,14 @@ body {
 }
 
 .speaker-img .img-bg {
-    width: 25%;
+    width: 20%;
     position: absolute;
     z-index: -1;
 }
 
 .speaker-img .sp-img {
     width: 100%;
-    object-position: 30px 30px;
+    object-position: 10px 10px;
 }
 
 .speaker-info {
@@ -215,7 +248,7 @@ body {
 
 .about {
     background: url(../img/bg-1.png);
-    padding: 30px;
+    padding: 80px 30px;
     background-size: contain;
     text-align: center;
 }
