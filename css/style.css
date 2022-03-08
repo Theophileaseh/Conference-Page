@@ -143,6 +143,7 @@ body.overflow-hidden {
 .headings {
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 
 .heading-1 {
