@@ -558,8 +558,9 @@ body.overflow-hidden {
   .footer-more {
     width: 50%;
   }
-  /
-  * about styles */
+
+  /* about styles */
+  
   .about {
     padding: 80px 80px 80px 330px;
     background-position: bottom;
