@@ -20,7 +20,6 @@ const SpeakersOne = [
 
 ];
 const speakersOneContainer = document.getElementById('speakers-1');
-  
 const allSpeakersOne = SpeakersOne
   .map(
     (speakersOnes) => `
@@ -37,7 +36,6 @@ const allSpeakersOne = SpeakersOne
   </div>
     `,
   ).join('');
-  
 speakersOneContainer.innerHTML = allSpeakersOne;
 
 // For second set of speakers
@@ -78,5 +76,5 @@ const allSpeakersTwo = SpeakersTwo
       </div>
   </div>
     `,
-  ).join('');s
+  ).join('');
 speakersTwoContainer.innerHTML = allSpeakersTwo;
