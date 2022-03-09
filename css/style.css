@@ -52,7 +52,7 @@ body.overflow-hidden {
 
 .menu.active {
   display: flex;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   height: 100vh;
@@ -65,8 +65,7 @@ body.overflow-hidden {
   margin: 0;
   align-items: center;
   padding-left: 0;
-  height: 100vh;
-  position: fixed;
+
 }
 
 .menu-link {
