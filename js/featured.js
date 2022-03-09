@@ -1,28 +1,22 @@
 const SpeakersOne = [
     {
-      name: 'John',
-      position: 'Executive Director',
+      name: 'Albert Brown',
+      position: 'CEO, HughWoods',
       description: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
       featured_image: 'p.png',
     },
     {
-      name: 'John',
-      position: 'Executive Director',
+      name: 'Katherine Key',
+      position: 'COO, Irving',
       description: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
       featured_image: 'p.png',
     },
     {
-      name: 'John',
-      position: 'Executive Director',
+      name: 'Ernest Backman',
+      position: 'Google Developer Expert',
       description: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
       featured_image: 'p.png',
     },
-    {
-      name: 'John',
-      position: 'Executive Director',
-      description: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
-      featured_image: 'p.png',
-    }, 
 
   ];
   
@@ -53,26 +47,20 @@ const SpeakersOne = [
 
   const SpeakersTwo = [
     {
-      name2: 'John',
+      name2: 'Kilnam Chon',
       position2: 'Executive Director',
       description2: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
       featured_image2: 'p.png',
     },
     {
-      name2: 'John',
-      position2: 'Executive Director',
+      name2: 'Julia Leda',
+      position2: 'President of Young Pirates of Europe',
       description2: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
       featured_image2: 'p.png',
     },
     {
-      name2: 'John',
-      position2: 'Executive Director',
-      description2: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
-      featured_image2: 'p.png',
-    },
-    {
-      name2: 'John',
-      position2: 'Executive Director',
+      name2: 'Angelica Bradley',
+      position2: 'Creative Director at Cards',
       description2: 'kdfjnvjlgbdentgjlbntrbgl jl tj44/jn4k5 44k5ntk 4tj 4',
       featured_image2: 'p.png',
     }, 

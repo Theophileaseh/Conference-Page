@@ -129,7 +129,7 @@ body.overflow-hidden {
     background: #ffffff21;
     margin-bottom: 10px;
     align-items: center;
-    padding-top: 30px;
+    padding: 15px;
 }
 
 .program-icon {
@@ -246,7 +246,7 @@ body.overflow-hidden {
 }
 
 .heading-3 {
-    color: #f5f3f3;
+    color: #6b6f77;
 }
 
 .main-partners {
@@ -357,14 +357,14 @@ body.overflow-hidden {
 }
 
 .port-1 {
-    background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgb(255 75 0 / 70%)), url(../img/about-c-bg.png);
+    background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgb(255 75 0 / 70%)), url(../img/ltc-1.png);
     padding: 60px;
     color: #fff;
     margin-bottom: 20px;
 }
 
 .port-2 {
-    background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgb(255 75 0 / 70%)), url(../img/port-2.png);
+    background: linear-gradient(0deg, rgba(255 255 255 / 54%), rgb(255 75 0 / 70%)), url(../img/ltc-2.png);
     padding: 60px;
     color: #fff;
 }
@@ -391,6 +391,10 @@ body.overflow-hidden {
     
     .left-header {
         width: 60%;
+    }
+
+    .main-logo {
+        width: 140px;
     }
     
     .right-header {
@@ -468,7 +472,7 @@ body.overflow-hidden {
     }
 
     .main-program {
-        padding: 70px 180px;
+        padding: 70px 160px;
     }
 
     .programs {
