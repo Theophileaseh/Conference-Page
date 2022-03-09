@@ -461,7 +461,8 @@ body.overflow-hidden {
         color: #272a31;
     }
     
-    .menu-link.actve, .menu-link:hover {
+    .menu-link.actve,
+    .menu-link:hover {
         color: #ec5242;
     }
     
@@ -539,7 +540,6 @@ body.overflow-hidden {
 
     .partners {
         padding: 25px 90px;
-
     }
 
     .footer {
@@ -603,5 +603,4 @@ body.overflow-hidden {
         background: #272a31;
         color: #d2d2d2;
     }
-
 }
