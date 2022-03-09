@@ -28,7 +28,7 @@ const SpeakersOne = [
       <div class="single-speaker">
       <div class="speaker-img">
           <img src="img/span-bg.png" class="img-bg">
-          <img src="img/${speakersOnes.featured_image}" class="sp-img">
+          <img src="img/speakers/${speakersOnes.featured_image}" class="sp-img">
       </div>
       <div class="speaker-info">
           <h3 class="speaker-name">${speakersOnes.name}</h3>
@@ -75,7 +75,7 @@ const SpeakersOne = [
       <div class="single-speaker">
       <div class="speaker-img">
           <img src="img/span-bg.png" class="img-bg">
-          <img src="img/${speakersTwos.featured_image2}" class="sp-img">
+          <img src="img/speakers/${speakersTwos.featured_image2}" class="sp-img">
       </div>
       <div class="speaker-info">
           <h3 class="speaker-name">${speakersTwos.name2}</h3>
