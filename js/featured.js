@@ -25,8 +25,8 @@ const allSpeakersOne = SpeakersOne
     (speakersOnes) => `
       <div class="single-speaker">
       <div class="speaker-img">
-          <img src="img/span-bg.png" class="img-bg">
-          <img src="img/speakers/${speakersOnes.featured_image}" class="sp-img">
+          <img src="img/span-bg.png" class="img-bg" alt="Robust-Events-speaker-bg">
+          <img src="img/speakers/${speakersOnes.featured_image}" class="sp-img" alt="Robust-Events-${speakersOnes.name}">
       </div>
       <div class="speaker-info">
           <h3 class="speaker-name">${speakersOnes.name}</h3>
@@ -66,8 +66,8 @@ const allSpeakersTwo = SpeakersTwo
     (speakersTwos) => `
       <div class="single-speaker">
       <div class="speaker-img">
-          <img src="img/span-bg.png" class="img-bg">
-          <img src="img/speakers/${speakersTwos.featured_image2}" class="sp-img">
+          <img src="img/span-bg.png" class="img-bg" alt="Robust-Events-speaker-bg">
+          <img src="img/speakers/${speakersTwos.featured_image2}" class="sp-img" alt="Robust-Events-${speakersTwos.name2}">
       </div>
       <div class="speaker-info">
           <h3 class="speaker-name">${speakersTwos.name2}</h3>
