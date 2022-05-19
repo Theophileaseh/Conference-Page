@@ -234,6 +234,14 @@ body.overflow-hidden {
   margin-top: 20px;
 }
 
+.speakers-2 {
+  display: none;
+}
+
+.speakers-2-show {
+  display: block;
+}
+
 .more-speakers {
   text-decoration: none;
   border: 1px solid #6b6f77;
@@ -518,6 +526,10 @@ body.overflow-hidden {
 
   .main-speakers {
     display: flex;
+  }
+
+  .speakers-2 {
+    display: block;
   }
 
   .single-speaker {
