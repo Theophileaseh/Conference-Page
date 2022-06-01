@@ -278,6 +278,7 @@ body.overflow-hidden {
 .footer {
   display: flex;
   padding: 40px;
+  gap: 60px;
 }
 
 .footer-about {
