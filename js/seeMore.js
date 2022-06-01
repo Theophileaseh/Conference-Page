@@ -1,5 +1,5 @@
-hiddenSpeakers = document.querySelector('#speakers-2');
-buttonHouse = document.querySelector('.more');
+const hiddenSpeakers = document.querySelector('#speakers-2');
+const buttonHouse = document.querySelector('.more');
 
 function seeMore(){
   hiddenSpeakers.classList.add('speakers-2-show');
@@ -16,5 +16,4 @@ function seeLess(){
   <span class="more-speaker-text">More</span>
   <i class="fa-solid fa-angle-down"></i>
 </button>`
-
 }
